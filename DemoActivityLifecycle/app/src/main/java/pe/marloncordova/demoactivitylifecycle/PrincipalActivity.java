@@ -119,7 +119,7 @@ public class PrincipalActivity extends AppCompatActivity {
         Book.deleteAll(Book.class);
 
 
-        Book book = new Book("isbn123", "Title here", "2nd edition");
+        Book book = new Book("isbn123", "Titulo", "2nd edition");
         book.save();
 
         Log.d("SUGAR",book.getId().toString());
